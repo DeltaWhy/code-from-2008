@@ -1,0 +1,13 @@
+Michael Limiero		Ch 9 Prelab
+1.
+  a. Constructors perform setup for an object such as initializing fields.
+  b. Constructors have the same name as a class and no return type.
+2. Private fields can't be accessed from outside the class. Public fields can be accessed by any other object. Generally, a class's internal workings are private, with public methods so other classes can indirectly access them.
+3.
+  a. double balance; String acctHolder; long acctNumber;
+  b. 
+    ii. public void deposit(double amt);
+    iii. public double getBalance();
+    iv. public void printInfo();
+    v. public void chargeFee();
+    vi. public Account(double balance, String acctHolder, long acctNumber);

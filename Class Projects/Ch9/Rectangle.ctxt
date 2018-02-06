@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=width\ height
+comment0.target=Rectangle(int,\ int)
+comment1.params=side
+comment1.target=Rectangle(int)
+comment2.target=Rectangle()
+comment3.target=boolean\ isSquare()
+comment4.target=void\ quadratize()
+comment5.target=int\ getWidth()
+comment6.target=int\ getHeight()
+comment7.target=String\ toString()
+numComments=8

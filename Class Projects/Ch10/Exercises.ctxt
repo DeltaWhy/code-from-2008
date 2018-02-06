@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=s
+comment0.target=boolean\ twoA(String)
+comment1.params=s
+comment1.target=boolean\ twoB(String)
+comment2.params=s
+comment2.target=String\ removeDashes(String)
+comment3.target=String\ fourA()
+comment4.target=String\ five()
+comment5.params=s
+comment5.target=String\ scroll(String)
+comment6.params=s
+comment6.target=String\ convertName(String)
+comment7.params=s
+comment7.target=String\ negative(String)
+numComments=8

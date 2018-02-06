@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=price\ num
+comment0.target=Vendor(int,\ int)
+comment1.params=num
+comment1.target=void\ setStock(int)
+comment2.target=int\ getStock()
+comment3.params=amt
+comment3.target=void\ addMoney(int)
+comment4.target=int\ getDeposit()
+comment5.target=boolean\ makeSale()
+comment6.target=int\ getChange()
+comment7.target=double\ getTotalSales()
+numComments=8

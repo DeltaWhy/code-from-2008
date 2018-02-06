@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=wheels\ doors\ color
+comment0.target=Car(int,\ int,\ String)
+comment1.params=doors\ color
+comment1.target=Car(int,\ String)
+comment2.params=color
+comment2.target=void\ paintJob(String)
+comment3.target=void\ rust()
+comment4.target=String\ honk()
+comment5.target=String\ toString()
+numComments=6

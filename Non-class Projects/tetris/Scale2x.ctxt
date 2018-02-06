@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=width\ height
+comment0.target=Scale2x(int,\ int)
+comment0.text=\nCreates\ a\ new\ Scale2x\ object.\ The\ new\ object\ will\ scale\ images\ of\ the\ specified\ size\ to\ images\nthat\ are\ twice\ as\ large.<br>\n\n@param\ width\ The\ width\ of\ the\ images\ to\ be\ scaled\n@param\ height\ The\ height\ of\ the\ images\ to\ be\ scaled\n\n
+comment1.params=img
+comment1.target=Image\ scale(Image)
+comment1.text=\nScales\ an\ image\ and\ returns\ a\ twice\ as\ large\ image.<br>\nThis\ assumes\ the\ input\ image\ is\ of\ the\ dimensions\ specified\ in\ the\ Scale2x\ constructor.<br>\nThe\ returned\ image\ is\ a\ reference\ to\ the\ internal\ scale\ target\ in\ this\ Scale2x,\ so\ it\nwill\ get\ changed\ if\ you\ call\ this\ method\ again,\ so\ don't\ hold\ on\ to\ it\ for\ too\ long.<br>\nIn\ other\ words\:<br>\n<code>Image\ i0\ \=\ scale2x.scale(image0);<br>\nImage\ i1\ \=\ scale2x.scale(image1);<br>\nif\ (i0\ \=\=\ i1)\ System.exit(0);\ //\ Will\ always\ terminate</code><br>\n\n@param\ img\ The\ image\ to\ be\ scaled\n@returns\ A\ scaled\ image.\ If\ you\ want\ that\ image\ to\ survive\ the\ next\ call\ to\ this\ method,\ make\ a\ copy\ of\ it.\n\n
+numComments=2

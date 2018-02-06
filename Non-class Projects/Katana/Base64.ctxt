@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Base64()
+comment1.params=s
+comment1.target=String\ encode(String)
+comment1.text=\nbase-64\ encode\ a\ string\n@param\ s\t\tThe\ ascii\ string\ to\ encode\n@returns\t\tThe\ base64\ encoded\ result\n\n
+comment2.params=src
+comment2.target=String\ encode(byte[])
+comment2.text=\nbase-64\ encode\ a\ byte\ array\n@param\ src\tThe\ byte\ array\ to\ encode\n@returns\t\tThe\ base64\ encoded\ result\n\n
+comment3.params=src\ start\ length
+comment3.target=String\ encode(byte[],\ int,\ int)
+comment3.text=\nbase-64\ encode\ a\ byte\ array\n@param\ src\tThe\ byte\ array\ to\ encode\n@param\ start\tThe\ starting\ index\n@param\ len\tThe\ number\ of\ bytes\n@returns\t\tThe\ base64\ encoded\ result\n\n
+comment4.params=s
+comment4.target=byte[]\ decode(String)
+comment4.text=\nA\ Base64\ decoder.\ \ This\ implementation\ is\ slow,\ and\ \ndoesn't\ handle\ wrapped\ lines.\nThe\ output\ is\ undefined\ if\ there\ are\ errors\ in\ the\ input.\n@param\ s\t\ta\ Base64\ encoded\ string\n@returns\t\tThe\ byte\ array\ eith\ the\ decoded\ result\n\n
+comment5.params=args
+comment5.target=void\ main(String[])
+comment5.text=\nTest\ the\ decoder\ and\ encoder.\nCall\ as\ <code>Base64\ [string]</code>.\n\n
+comment6.params=filename
+comment6.target=String\ encodeFile(String)
+comment7.params=filename\ message
+comment7.target=void\ decodeFile(String,\ String)
+numComments=8

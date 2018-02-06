@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=TerminalController()
+comment1.params=player
+comment1.target=void\ placeShip(int)
+comment2.target=Point\ getPoint()
+comment3.params=e
+comment3.target=void\ notify(Event)
+comment4.params=e
+comment4.target=void\ added(EventManager)
+comment5.params=e
+comment5.target=void\ removed(EventManager)
+numComments=6

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Game()
+comment1.params=e
+comment1.target=void\ shoot(ShootEvent)
+comment2.params=e
+comment2.target=void\ changeTurn(Event)
+comment3.params=e
+comment3.target=void\ notify(Event)
+comment4.params=e
+comment4.target=void\ added(EventManager)
+comment5.params=e
+comment5.target=void\ removed(EventManager)
+numComments=6

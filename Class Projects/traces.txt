@@ -1,0 +1,87 @@
+Michael Limiero - Tracing References
+
+---References1--- Output is in quotes
+person1 is ("Rachel",6)
+person2 is ("Elly",4)
+person3 is ("Sarah",19)
+
+"The three original people..."
+"Rachel - Age 6, Elly - 4, Sarah - Age 19"
+
+person1 is ("Elly",4)
+person2 is ("Sarah",19)
+person3 is ("Elly",4) - points to person1
+
+"The three people reassigned..."
+"Elly - Age 4, Sarah - Age 19, Elly - Age 4"
+
+"Changing the second name to Bozo..."
+person2 is ("Bozo",19)
+"Elly - Age 4, Bozo - Age 19, Elly - Age 4"
+
+"Changing the third name to Clarabelle..."
+person3 is ("Clarabelle",4)
+person1 is ("Clarabelle",4)!!
+"Clarabelle - Age 4, Bozo - Age 19, Clarabelle - Age 4"
+
+"Changing the first name to Harpo..."
+person1 is ("Harpo",4)
+person3 is ("Harpo",4)
+"Harpo - Age 4, Bozo - Age 19, Harpo - Age 4"
+
+
+
+---References1--- revision
+change this:
+person1 = person2;
+person2 = person3;
+person3 = person1;
+to this:
+Person temp = person1;
+person1 = person2;
+person2 = person3;
+person3 = temp;
+temp = null; //to save a bit of memory - optional
+
+
+--References2---
+"Enter three ages..."
+Input age1 = 1, age2 = 2, age3 = 3...
+person1 is ("Rachel",1) //sample data
+person2 is ("Elly",2)
+person3 is ("Sarah",3)
+
+"The original three people..."
+"Rachel - Age 1, Elly - Age 2, Sarah - Age 3"
+
+age1, age2, and age3 = 2
+person1, person2, and person3 are the 
+	same object ("Elly",2)
+"The changed values are..."
+"Ages (ints): 2, 2, 2"
+"Elly - Age 2, Elly - Age 2, Elly - Age 2"
+
+"Changing the second age to 99..."
+age1 = 2, age2 = 99, age3 = 2
+person1, person2, person3 = ("Elly",99)
+"The changed values are..."
+"Ages (ints): 2, 99, 2"
+"Elly - Age 99, Elly - Age 99, Elly - Age 99"
+
+"Changing the first age to 100..."
+age1 = 100, age2 = 99, age3 = 2
+person1, person2, person3 = ("Elly",100)
+"The changed values are..."
+"Ages (ints): 100, 99, 2"
+"Elly - Age 100, Elly - Age 100, Elly - Age 100"
+
+
+---References2--- question
+The objects stay the same because the variables person1,
+	person2, and person3 are pointers to objects
+	in memory. After the assignments, they all point
+	to the same object in memory.
+The integers hold actual values. age1, age2, and age3
+	hold the ages. Assigning age2 to age1 only affects
+	the value, unlike assigning person2 to person1,
+	which causes them to point to the same object.

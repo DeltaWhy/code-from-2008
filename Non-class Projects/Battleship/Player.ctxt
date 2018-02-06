@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=number
+comment0.target=Player(int)
+comment1.params=e
+comment1.target=void\ notify(Event)
+comment2.params=e
+comment2.target=void\ added(EventManager)
+comment3.params=e
+comment3.target=void\ removed(EventManager)
+numComments=4

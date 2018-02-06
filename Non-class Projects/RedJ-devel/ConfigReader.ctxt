@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=configFile
+comment0.target=ConfigReader(File)
+comment1.params=fileName
+comment1.target=ConfigReader(String)
+comment2.target=Hashtable<String,String>\ read()
+comment3.target=void\ close()
+numComments=4

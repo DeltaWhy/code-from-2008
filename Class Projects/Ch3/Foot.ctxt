@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=x\ y\ pic
+comment0.target=Foot(int,\ int,\ Image)
+comment1.params=distance
+comment1.target=void\ moveForward(int)
+comment2.params=distance
+comment2.target=void\ moveSideways(int)
+comment3.params=degrees
+comment3.target=void\ turn(int)
+comment4.params=g
+comment4.target=void\ draw(Graphics)
+numComments=5

@@ -1,0 +1,51 @@
+Michael Limiero		Pd. 3
+
+Chapter 6 Exercises
+1. Local variables: a, c, e
+   Fields: b, d, f
+2. a: false - You can use something like "int x,y,z;"
+   b: false - The scope is the section of code where it exists.
+   c: false - It is okay for a temp variable, like a loop counter.
+   d: true - Because they have different scope.
+   e: false - It will just use the local variable instead of the field.
+3. 1: It is easier to change because it only has to be changed in one place.
+   2: It is less confusing - "SALES_TAX" instead of "0.075".
+   3: It is possible to change constants into variables.
+4. B
+5. compiled
+6. a: 0
+   b: 0
+   c: 5
+   d: 5
+   e: 3
+7. a: 105
+   b: 19
+8. count += (total/pages - 5) * words - 1;
+9. Change System.out.println(1 / 2 * (g * t * t)); to
+System.out.println(1.0/2 * (g * t * t));
+10. (int)(x - 0.5)
+11.
+double d, x1, x2;
+d = Math.sqrt(b*b - (4*a*c));
+x1 = (-b+d)/(2*a);
+x2 = (-b-d)/(2*a);
+12. Change "int temp" to "double temp". Even if this works, it doesn't
+    do what it's supposed to.
+13. 
+int first = n / 100;
+int last2 = n % 100;
+int tens = last2 / 10;
+int ones = last2 % 10;
+int result = first + (10*ones) + (tens/10);
+14. dayOfWeek = (day % 7) - 1 + dayOfWeek1;
+15. int minLeft = (depHour-curHour)*60 + (depMin-curMin);
+System.out.println( "" + (minLeft/60) + " hours and " +
+	(minLeft%60) + " minutes.");
+16. 
+private double calculateBmi(int lbs, int inches)
+{
+	double kg, m;
+	kg = lbs * 0.454;
+	m = inches * 0.0254;
+	return kg/(m*m);
+}

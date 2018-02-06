@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=ConfigFrame()
+comment1.params=redJPath
+comment1.target=ConfigFrame(String)
+comment2.target=void\ readConfig()
+comment3.target=void\ writeConfig()
+comment4.params=e
+comment4.target=void\ actionPerformed(ActionEvent)
+comment5.params=b
+comment5.target=void\ setVisible(boolean)
+comment6.params=args
+comment6.target=void\ main(String[])
+numComments=7

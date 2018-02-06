@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=key\ pt
+comment0.target=byte[]\ cipher(byte[],\ byte[])
+comment1.params=key\ pt\ n
+comment1.target=byte[]\ cipher(byte[],\ byte[],\ int)
+comment2.params=b
+comment2.target=int\ btoi(byte)
+numComments=3

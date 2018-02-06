@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.params=color\ species\ name\ waterType
+comment0.target=Fish(String,\ String,\ String,\ boolean)
+comment1.params=color\ species\ name\ waterType\ tank
+comment1.target=Fish(String,\ String,\ String,\ boolean,\ FishTank)
+comment10.target=void\ checkIfAlive()
+comment11.target=String\ toString()
+comment2.target=boolean\ isAlive()
+comment3.target=void\ kill()
+comment4.params=name
+comment4.target=void\ setName(String)
+comment5.target=String\ getName()
+comment6.params=tank
+comment6.target=void\ setTank(FishTank)
+comment7.target=FishTank\ getTank()
+comment8.target=String\ getColor()
+comment9.params=days
+comment9.target=void\ liveDays(int)
+numComments=12

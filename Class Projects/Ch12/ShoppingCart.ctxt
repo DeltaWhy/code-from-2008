@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=ShoppingCart()
+comment1.params=itemName\ price\ quantity
+comment1.target=void\ addToCart(String,\ double,\ int)
+comment2.target=String\ toString()
+comment3.target=void\ increaseSize()
+comment4.target=double\ getTotalPrice()
+numComments=5

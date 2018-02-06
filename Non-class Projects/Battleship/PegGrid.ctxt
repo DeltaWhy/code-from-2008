@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=number
+comment0.target=PegGrid(int)
+comment1.params=hit\ p
+comment1.target=boolean\ place(boolean,\ Point)
+comment2.params=e
+comment2.target=void\ notify(Event)
+comment3.params=e
+comment3.target=void\ added(EventManager)
+comment4.params=e
+comment4.target=void\ removed(EventManager)
+numComments=5

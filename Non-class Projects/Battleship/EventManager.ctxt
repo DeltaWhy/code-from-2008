@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=EventManager()
+comment1.params=obj
+comment1.target=void\ addObject(MVCObject)
+comment2.params=obj
+comment2.target=void\ removeObject(MVCObject)
+comment3.target=void\ waitForClick()
+comment4.params=e
+comment4.target=void\ notify(Event)
+comment5.params=e
+comment5.target=void\ notifyNow(Event)
+numComments=6

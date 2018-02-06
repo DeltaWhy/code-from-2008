@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=n
+comment0.target=void\ eightA(int)
+comment1.params=n
+comment1.target=void\ eightB(int)
+comment2.params=n
+comment2.target=void\ eightC(int)
+comment3.params=n
+comment3.target=void\ printStars(int)
+comment4.params=args
+comment4.target=void\ main(String[])
+numComments=5

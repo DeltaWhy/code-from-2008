@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=filename
+comment0.target=void\ encryptFile(String)
+comment1.params=filename
+comment1.target=void\ encryptFile2(String)
+comment10.params=filename\ keyStr\ n
+comment10.target=void\ decryptFile2(String,\ String,\ int)
+comment11.params=message\ keyStr\ n
+comment11.target=String\ decryptMessage2(String,\ String,\ int)
+comment2.params=filename\ promptN
+comment2.target=void\ encryptFile(String,\ boolean)
+comment3.params=filename\ keyStr
+comment3.target=void\ encryptFile(String,\ String)
+comment4.params=filename\ keyStr\ n
+comment4.target=void\ encryptFile2(String,\ String,\ int)
+comment5.params=message\ keyStr\ n
+comment5.target=String\ encryptMessage2(String,\ String,\ int)
+comment6.params=filename
+comment6.target=void\ decryptFile(String)
+comment7.params=filename
+comment7.target=void\ decryptFile2(String)
+comment8.params=filename\ promptN
+comment8.target=void\ decryptFile(String,\ boolean)
+comment9.params=filename\ keyStr
+comment9.target=void\ decryptFile(String,\ String)
+numComments=12

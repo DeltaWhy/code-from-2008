@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=hostName\ guestName
+comment0.target=void\ insertFile(String,\ String)
+comment1.params=hostName
+comment1.target=void\ extractFile(String)
+comment2.params=fis
+comment2.target=long\ findHeader(FileInputStream)
+comment3.params=source\ dest
+comment3.target=void\ copyFile(File,\ File)
+numComments=4

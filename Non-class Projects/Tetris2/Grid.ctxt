@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=width\ height
+comment0.target=Grid(int,\ int)
+comment1.params=piece
+comment1.target=boolean\ newPiece(int)
+comment2.target=boolean\ dropGrid()
+comment3.params=rows
+comment3.target=boolean\ dropGrid(int)
+comment4.params=start\ rows
+comment4.target=boolean\ dropGrid(int,\ int)
+comment5.target=boolean\ dropPiece()
+comment6.params=cols
+comment6.target=boolean\ shiftPiece(int)
+comment7.target=boolean\ rotatePiece()
+comment8.target=int\ checkForLines()
+numComments=9

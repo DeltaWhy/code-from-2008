@@ -1,0 +1,4 @@
+#BlueJ class context
+comment0.params=player\ point
+comment0.target=ShootEvent(int,\ Point)
+numComments=1

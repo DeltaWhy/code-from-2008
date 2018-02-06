@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=x\ y\ pic
+comment0.target=CoordinateSystem(int,\ int,\ Image)
+comment1.params=dx\ dy
+comment1.target=void\ shift(double,\ double)
+comment2.params=radians
+comment2.target=void\ rotate(double)
+comment3.params=g\ picture
+comment3.target=void\ drawImage(Graphics,\ Image)
+numComments=4

@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=wheels\ doors\ color\ roadClearance
+comment0.target=Hummer(int,\ int,\ String,\ int)
+comment1.params=interiorSize
+comment1.target=void\ setInteriorSize(double)
+comment2.target=String\ honk()
+comment3.target=String\ toString()
+numComments=4

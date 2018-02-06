@@ -1,0 +1,20 @@
+Mode: Setup, shoot, hide ships
+Turn: Player 1, player 2
+10x10 grid
+ships: patrol boat, submarine, cruiser, battleship, carrier
+white pegs, red pegs
+
+Objects:
+ShipGrid
+PegGrid
+Game (keeps track of mode & turn)
+Player
+
+Events:
+CreatedEvent (fired for players & grids & game)
+DebugEvent (causes objects to dump info)
+PlaceShipEvent (player, points)
+ShootEvent (player, point)
+PegEvent (player, hit, point)
+SinkEvent (player, points, type?)
+WinEvent (player)

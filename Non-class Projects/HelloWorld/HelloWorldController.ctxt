@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=em
+comment0.target=HelloWorldController(EventManager)
+comment1.target=void\ helloWorld()
+comment2.params=ev
+comment2.target=void\ fire(MVCEvent)
+numComments=3

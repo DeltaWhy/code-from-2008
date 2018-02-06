@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=BiasedCoin()
+comment1.params=bias
+comment1.target=BiasedCoin(double)
+comment2.target=void\ flip()
+comment3.target=int\ getFace()
+comment4.target=String\ toString()
+numComments=5

@@ -1,0 +1,11 @@
+10. a.
+Write class Rectangle: int width and height
+Include a constructor w/width and height, &
+a constructor for a square (check that w/h are positive)
+Add a constructor w/no params (square size 1)
+b.
+add boolean isSquare
+add quadratize that changes the rect. into a square
+with approx. the same area
+c.
+test program

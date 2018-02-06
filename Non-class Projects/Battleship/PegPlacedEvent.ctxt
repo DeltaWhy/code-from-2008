@@ -1,0 +1,4 @@
+#BlueJ class context
+comment0.params=player\ hit\ point
+comment0.target=PegPlacedEvent(int,\ boolean,\ Point)
+numComments=1

@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=unitSystem
+comment0.target=Util(boolean)
+comment1.params=f
+comment1.target=double\ fToC(double)
+comment2.params=c
+comment2.target=double\ cToF(double)
+comment3.params=f
+comment3.target=double\ f(double)
+comment4.params=c
+comment4.target=double\ c(double)
+numComments=5

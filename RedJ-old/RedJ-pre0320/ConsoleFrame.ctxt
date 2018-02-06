@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=ConsoleFrame()
+comment1.params=title
+comment1.target=ConsoleFrame(String)
+numComments=2

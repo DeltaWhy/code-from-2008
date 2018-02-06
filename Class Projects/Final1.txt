@@ -1,0 +1,17 @@
+Enter Mary's percent score for Test 1: -3
+Invalid grade, please try again.
+Enter Mary's percent score for Test 1: 105
+Invalid grade, please try again.
+Enter Mary's percent score for Test 1: 82
+Enter Mary's percent score for Test 2: 83
+
+Enter Mike's percent score for Test 1: 68
+Enter Mike's percent score for Test 2: -71
+Invalid grade, please try again.
+Enter Mike's percent score for Test 2: 100.1
+Invalid grade, please try again.
+Enter Mike's percent score for Test 2: 99.8
+
+Name: Mary	Test1: 82.0	Test2: 83.0	Average: 82.5
+
+Name: Mike	Test1: 68.0	Test2: 99.8	Average: 83.9

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.params=blockSize\ width\ height
+comment0.target=TetrisApplet(int,\ int,\ int)
+comment1.target=TetrisApplet()
+comment2.target=void\ init()
+comment3.target=void\ start()
+comment4.params=g
+comment4.target=void\ paint(Graphics)
+comment5.params=g
+comment5.target=void\ update(Graphics)
+comment6.params=e
+comment6.target=void\ actionPerformed(ActionEvent)
+comment7.params=e
+comment7.target=void\ keyPressed(KeyEvent)
+comment8.params=e
+comment8.target=void\ keyReleased(KeyEvent)
+comment9.params=e
+comment9.target=void\ keyTyped(KeyEvent)
+numComments=10

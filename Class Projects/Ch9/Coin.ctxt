@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Coin()
+comment1.target=void\ flip()
+comment2.target=int\ getFace()
+comment3.target=String\ toString()
+numComments=4

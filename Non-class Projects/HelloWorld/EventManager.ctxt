@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=EventManager()
+comment1.params=controller
+comment1.target=void\ setController(Controller)
+comment2.params=view
+comment2.target=void\ setView(View)
+comment3.params=event
+comment3.target=void\ fire(MVCEvent)
+numComments=4

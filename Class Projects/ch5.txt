@@ -1,0 +1,55 @@
+Michael Limiero		Pd. 3		Ch 5 Ex 1-4, 6-10
+
+1. Comments are useful for documenting the role and structure of
+   major code sections, marking important procedural steps, and 
+   explaining obscure or unusual twists in the code.
+
+2.
+  /**
+   * This method is responsible for drawing the disk
+   * on the screen.
+   */
+  public void paintComponent(Graphics g)
+  {
+...
+
+3. a. Reserved words: public, class, extends, implements, private,
+       int, new, void, if, else, super, false, this, static, import,
+       true
+   b. Packages: java.awt, java.awt.event, javax.swing
+      Classes: JPanel, ActionListener, Timer, Graphics, Math, Color,
+       JFrame, Container
+      Methods: Math.cos(), Math.sin(), setBackground(),
+       super.paintComponent(), g.setColor(), g.fillOval(), repaint()
+       w.setSize(), w.setDefaultCloseOperation(), w.getContentPane()
+       c.add(), w.setResizable(), w.setVisible()
+      Constants: Math.PI, Color.BLACK, Color.CYAN, Color.ORANGE,
+       JFrame.EXIT_ON_CLOSE, false, true
+   c. Names: MovingDisk, time, clock, x, y, r, sky, g, w, c, e, args
+
+4. Syntax: c, g
+   Style: a, b, d, e, f
+
+6. If "main" is mistyped as "Main," the interpreter will not be able
+   to find the main method. In BlueJ, however, it will work fine.
+
+7. The parentheses are syntax. The braces are style because they
+   only contain one line of code. Otherwise, they are syntax.
+
+8. The banner does not move. The semicolon after the if statement
+   is a blank statement, and the code in the braces is always
+   executed. This is legal, but doesn't work.
+
+9. 
+public boolean badIndentation (int maxLines)
+{
+    int lineCount = 3;
+    while (lineCount < maxLines)
+    {
+        System.out.println (lineCount);
+        lineCount++;
+    }
+    return true;
+}
+
+10. a: false  b: true  c: true  d: true  e: true

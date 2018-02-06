@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Console()
+comment1.params=rows\ columns
+comment1.target=Console(int,\ int)
+comment2.target=void\ clear()
+comment3.params=e
+comment3.target=void\ keyPressed(KeyEvent)
+comment4.params=e
+comment4.target=void\ keyTyped(KeyEvent)
+comment5.params=e
+comment5.target=void\ keyReleased(KeyEvent)
+comment6.params=str
+comment6.target=void\ append(String)
+numComments=7

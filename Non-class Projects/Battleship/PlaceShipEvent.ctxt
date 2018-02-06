@@ -1,0 +1,4 @@
+#BlueJ class context
+comment0.params=player\ start\ end
+comment0.target=PlaceShipEvent(int,\ Point,\ Point)
+numComments=1

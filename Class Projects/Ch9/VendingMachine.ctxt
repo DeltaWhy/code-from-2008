@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=brand\ color\ price\ coin
+comment0.target=VendingMachine(String,\ Color,\ int,\ ImageIcon)
+comment1.target=void\ reload()
+comment2.params=e
+comment2.target=void\ actionPerformed(ActionEvent)
+comment3.params=g
+comment3.target=void\ paintComponent(Graphics)
+comment4.params=g\ x\ y
+comment4.target=void\ drawCan(Graphics,\ int,\ int)
+numComments=5

@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=configFile
+comment0.target=ConfigWriter(File)
+comment1.params=fileName
+comment1.target=ConfigWriter(String)
+comment2.params=ht
+comment2.target=void\ write(Hashtable)
+comment3.target=void\ close()
+numComments=4
